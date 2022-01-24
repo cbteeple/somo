@@ -1,6 +1,4 @@
 # SoMo
-**Fast  and  Accurate  Simulations  of  Continuum  Robots in  Complex  Environments**
-
 > This module contains a light wrapper around pybullet that facilitates the simulation of continuum manipulators.
 
 > The following is a pre-release. We are actively working on cleaning up this code and providing a thorough documentation. 
@@ -14,7 +12,7 @@ With SoMo, environments with various continuum manipulators, such as hands with 
 can be created and controlled with only a few lines of code.
 
 
-![Palm example](https://github.com/GrauleM/somo/blob/main/docs/img/importance_of_palms.png)
+![Palm example](https://github.com/GrauleM/somo/blob/master/docs/img/importance_of_palms.png)
 
 **Todos:** see [todos.md](todos.md)
 
@@ -48,6 +46,8 @@ can be created and controlled with only a few lines of code.
 - always use [Black](https://pypi.org/project/black/) for code formatting
 - always bump the version of your branch by increasing the version number listed in somo/_version.py
 
+### Testing
+SoMo uses pytest for testing. In most cases, it will be better to ignore the tests that rely on the GUI -test coverage will be identical. You can run all tests with `$ pytest` from the repository's root and ignore the tests involving the GUI with `$ pytest -m "not gui"`
 
 
 ## Using this framework

@@ -7,17 +7,8 @@
 SoMo: Fast, Accurate Simulations of Continuum Robots in Complex Environments
 ================================
 
-.. toctree::
-   :maxdepth: 2
-   :titlesonly:
-
-   getting_started/index
-   examples/index
-   reference/index
-   contributing
-
-
+.. image:: img/rubiks_cross_new_wide_crop.jpg
 
 
 .. include:: description.rst
-
+.. include:: videos.rst
