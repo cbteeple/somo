@@ -126,9 +126,6 @@ joint_description = {
 ```
 
 ## Submodules for a Streamlined Workflow
-### somo.sweep
-Perform multidimensional parameter sweeps with true parallel processing and easy data handling. More info about the **sweep** module is located in the _"parameter_sweep"_ example
-	
 ### somo.logger
 Parse logged data from pybullet's builtin loggers, and trim it to only include the columns you want. You can also convert to pandas dataframes.
 
@@ -142,6 +139,8 @@ Here are a few useful packages that were written along-side this framework. You 
 	- `pip install sorotraj`
 -  [object2urdf](https://pypi.org/project/object2urdf/) - Manage a library of objects, and auto-generate URDFs from templates.
 	- `pip install object2urdf`
+-  [SoMoSweep](https://pypi.org/project/somosweep) - Perform multidimensional parameter sweeps with true parallel processing and easy data handling.
+    - `pip install somosweep`
 
 ## Other Useful Packages
 
