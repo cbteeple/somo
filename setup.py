@@ -13,6 +13,6 @@ setup(
     author_email="moritz@graule.ch",
     license="unlicense",
     # remember to add all additional submodules to this list
-    packages=["somo", "somo.sweep", "somo.logger"],
+    packages=["somo", "somo.logger"],
     classifiers=["Development Status :: 1 - Planning"],
 )
